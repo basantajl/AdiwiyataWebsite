@@ -1,0 +1,46 @@
+/* src/Style/Gallery.css */
+
+.Text {
+  text-align: center;
+  margin-top: 50px; /* Sesuaikan sesuai kebutuhan desain Anda */
+}
+
+.title {
+  margin-bottom: 20px; /* Sesuaikan sesuai kebutuhan desain Anda */
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 50px;
+}
+
+.card-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 90px;
+}
+
+h3 {
+  margin-right: 630px;
+  font-size: 30px;
+}

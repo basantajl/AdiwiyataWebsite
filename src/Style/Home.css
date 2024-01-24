@@ -1,0 +1,24 @@
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.video-container {
+  margin-top: 100px;
+  border-radius: 10px; /* Menambahkan border-radius */
+  overflow: hidden; /* Mengatasi masalah border-radius di dalam iframe */
+}
+
+iframe {
+  border: none; /* Menghilangkan border pada iframe */
+  border-radius: 10px; /* Menambahkan border-radius pada iframe */
+}
+
+h3 {
+  color: #dddddd; /* Warna teks */
+}
+
+h2 {
+  color: #b0b0b0; /* Warna teks */
+  font-size: 1.2rem; /* Ukuran teks */
+}
